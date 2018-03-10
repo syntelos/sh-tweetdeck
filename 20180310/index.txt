@@ -1,0 +1,27 @@
+# delay 300 
+# resize 50%
+#tweetdeck-20180310-1.png
+#tweetdeck-20180310-2.png
+#tweetdeck-20180310-3.png
+#tweetdeck-20180310-4.png
+#tweetdeck-20180310-5.png
+#tweetdeck-20180310-6.png
+#tweetdeck-20180310-7.png
+#tweetdeck-20180310-8.png
+#
+tweetdeck-20180310-1.png
+tweetdeck-20180310-1-M.png
+tweetdeck-20180310-2.png
+tweetdeck-20180310-2-M.png
+tweetdeck-20180310-3.png
+tweetdeck-20180310-3-M.png
+tweetdeck-20180310-4.png
+tweetdeck-20180310-5.png
+tweetdeck-20180310-5-M-1.png
+tweetdeck-20180310-5-M-2.png
+tweetdeck-20180310-6.png
+tweetdeck-20180310-6-M-1.png
+tweetdeck-20180310-6-M-2.png
+tweetdeck-20180310-7.png
+tweetdeck-20180310-7-M.png
+tweetdeck-20180310-8.png

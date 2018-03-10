@@ -30,12 +30,23 @@ then
 
     if [ -f "${idx}" ]&& flist=$(egrep -v '^#' "${idx}" ) &&[ -n "${flist}" ]
     then
-	
-
+	#
+	# (delay)
+	#
 	if conf_delay=$(egrep '^#.*delay' ${idx} | sed 's/.*delay[: =]//; s/ //g;') &&
 	    [ -n "${conf_delay}" ]&&[ 0 -lt "${conf_delay}" ]
 	then
-	    animation="convert -delay ${conf_delay} -loop 0 ${flist} ${tgt}"
+	    #
+	    # (resize)
+	    #
+	    if conf_resize=$(egrep '^#.*resize' ${idx} | sed 's/.*resize[: =]//; s/ //g;') &&
+		[ -n "${conf_resize}" ]
+	    then
+
+		animation="convert -delay ${conf_delay} -resize ${conf_resize} -loop 0 ${flist} ${tgt}"
+	    else
+		animation="convert -delay 800 -loop 0 ${flist} ${tgt}"
+	    fi
 	else
 	    animation="convert -delay 800 -loop 0 ${flist} ${tgt}"
 	fi
