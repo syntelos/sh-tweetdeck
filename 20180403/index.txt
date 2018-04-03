@@ -16,4 +16,5 @@ intels-mythological-list-7-1.png
 intels-mythological-list-7-2.png
 intels-mythological-list-8-1.png
 intels-mythological-list-8-2.png
-intels-mythological-list-999.png
+intels-mythological-list-999-1.png
+intels-mythological-list-999-2.png
