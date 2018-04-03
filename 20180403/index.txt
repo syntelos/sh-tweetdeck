@@ -1,0 +1,19 @@
+# delay 300
+# resize 50%
+intels-mythological-list-1-1.png
+intels-mythological-list-1-2.png
+intels-mythological-list-2-1.png
+intels-mythological-list-2-2.png
+intels-mythological-list-3-1.png
+intels-mythological-list-3-2.png
+intels-mythological-list-4-1.png
+intels-mythological-list-4-2.png
+intels-mythological-list-5-1.png
+intels-mythological-list-5-2.png
+intels-mythological-list-6-1.png
+intels-mythological-list-6-2.png
+intels-mythological-list-7-1.png
+intels-mythological-list-7-2.png
+intels-mythological-list-8-1.png
+intels-mythological-list-8-2.png
+intels-mythological-list-999.png
