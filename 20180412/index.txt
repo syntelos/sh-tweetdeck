@@ -1,0 +1,14 @@
+# delay 400
+# resize 60%
+florence-01.png
+florence-02.png
+florence-03.png
+florence-04.png
+florence-05.png
+florence-06.png
+florence-07.png
+florence-08.png
+florence-09.png
+florence-10.png
+florence-11.png
+florence-12.png
