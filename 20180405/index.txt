@@ -1,0 +1,18 @@
+# delay 200
+# resize 50%
+poopouri_dot_dom-01.png
+poopouri_dot_dom-02.png
+poopouri_dot_dom-03.png
+poopouri_dot_dom-04.png
+poopouri_dot_dom-05.png
+poopouri_dot_dom-06.png
+poopouri_dot_dom-07.png
+poopouri_dot_dom-08.png
+poopouri_dot_dom-09.png
+poopouri_dot_dom-10.png
+poopouri_dot_dom-11.png
+poopouri_dot_dom-12.png
+poopouri_dot_dom-13.png
+poopouri_dot_dom-14.png
+poopouri_dot_dom-15.png
+poopouri_dot_dom-16.png
