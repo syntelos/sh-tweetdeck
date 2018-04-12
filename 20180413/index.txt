@@ -1,0 +1,15 @@
+# delay 400
+# resize 60%
+tweetdeck-01.png
+tweetdeck-02.png
+tweetdeck-03.png
+tweetdeck-04.png
+tweetdeck-05.png
+tweetdeck-06.png
+tweetdeck-07.png
+tweetdeck-08.png
+tweetdeck-09.png
+tweetdeck-10.png
+tweetdeck-11.png
+tweetdeck-12.png
+tweetdeck-13.png
