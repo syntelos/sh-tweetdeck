@@ -1,0 +1,5 @@
+# delay 400
+# resize 60%
+unsdp-sti-tfm-01.png
+unsdp-sti-tfm-02.png
+unsdp-sti-tfm-03.png
