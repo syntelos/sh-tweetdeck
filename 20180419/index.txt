@@ -1,0 +1,19 @@
+# delay 300
+# colorspace Gray
+# +contrast +contrast +contrast +contrast
+# resize 60%
+nytimes-01.png
+nytimes-02.png
+nytimes-03.png
+nytimes-04.png
+nytimes-05.png
+nytimes-06.png
+nytimes-07.png
+nytimes-08.png
+nytimes-09.png
+nytimes-10.png
+nytimes-11.png
+nytimes-12.png
+nytimes-13.png
+nytimes-14.png
+nytimes-15.png
