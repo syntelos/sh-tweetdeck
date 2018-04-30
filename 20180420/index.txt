@@ -1,0 +1,6 @@
+# delay 300
+# resize 60%
+yahoo-assad-20180209-00.png
+yahoo-assad-20180209-01.png
+yahoo-assad-20180209-02.png
+#yahoo-assad-20180209-03.png
