@@ -1,0 +1,5 @@
+# delay 200
+# resize 60%
+opera-01.png
+opera-02.png
+opera-03.png
