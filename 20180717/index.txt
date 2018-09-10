@@ -1,0 +1,10 @@
+# delay 250
+# resize 60%
+# colorspace Gray
+# +contrast +contrast +contrast +contrast +contrast +contrast
+trump-intel-20180717-1.png
+trump-intel-20180717-2.png
+trump-intel-20180717-3.png
+trump-intel-20180717-4.png
+trump-intel-20180717-5.png
+trump-intel-20180717-6.png

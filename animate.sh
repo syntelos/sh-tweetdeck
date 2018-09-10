@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 project='tweetdeck'
 
 function usage {
@@ -14,6 +16,25 @@ Description
   Named directory requires 'index.txt' which lists collection by name.
   The files listed in 'index.txt' must not have a directory path
   prefix.
+
+Configuration
+
+  The 'delay', 'resize', and 'colorspace' and 'contrast' options to
+  imagemagick "convert" may be configured.
+
+  Example "index.txt":
+
+    # delay 300
+    # resize 60%
+    # colorspace Gray
+    # -contrast
+    nytimes-01.png
+    nytimes-02.png
+    nytimes-03.png
+    nytimes-04.png
+    nytimes-05.png
+    nytimes-06.png
+
 
 EOF
     exit 1
@@ -31,27 +52,18 @@ then
     if [ -f "${idx}" ]&& flist=$(egrep -v '^#' "${idx}" ) &&[ -n "${flist}" ]
     then
 	#
-	# (delay)
+	#(conf)
 	#
-	if conf_delay=$(egrep '^#.*delay' ${idx} | sed 's/.*delay[: =]//; s/ //g;') &&
-	    [ -n "${conf_delay}" ]&&[ 0 -lt "${conf_delay}" ]
+	configuration=$(egrep -e '^# [-+]?[a-z]+' ${idx} | sed 's/^# *//; s/^[a-z]/-&/;' | tr '\n' ' ' | sed  's/  +/ /g; s/ +$//;')
+	#
+	#(shell)
+	#
+	if [ -n "${configuration}" ]
 	then
-	    #
-	    # (resize)
-	    #
-	    if conf_resize=$(egrep '^#.*resize' ${idx} | sed 's/.*resize[: =]//; s/ //g;') &&
-		[ -n "${conf_resize}" ]
-	    then
-
-		animation="convert -delay ${conf_delay} -resize ${conf_resize} -loop 0 ${flist} ${tgt}"
-	    else
-		animation="convert -delay 800 -loop 0 ${flist} ${tgt}"
-	    fi
+	    animation="convert ${configuration} -loop 0 ${flist} ${tgt}"
 	else
-	    animation="convert -delay 800 -loop 0 ${flist} ${tgt}"
+	    animation="convert -loop 0 ${flist} ${tgt}"
 	fi
-
-	animation=$(echo "${animation}" | tr '\n' ' ' )
 
 	if cd ${src} && ${animation}
 	then
