@@ -1,4 +1,5 @@
 # delay 100
+# resize 60%
 frame-01.png
 frame-02.png
 frame-03.png
