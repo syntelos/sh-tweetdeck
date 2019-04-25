@@ -1,0 +1,15 @@
+# delay 300
+# resize 60%
+index.txt
+tweetdeck-20190425-131704.png
+tweetdeck-20190425-131717.png
+tweetdeck-20190425-131725.png
+tweetdeck-20190425-131730.png
+tweetdeck-20190425-131735.png
+tweetdeck-20190425-131743.png
+tweetdeck-20190425-131748.png
+tweetdeck-20190425-131753.png
+tweetdeck-20190425-131758.png
+tweetdeck-20190425-131805.png
+tweetdeck-20190425-131815.png
+tweetdeck-20190425-131832.png
