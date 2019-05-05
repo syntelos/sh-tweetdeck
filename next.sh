@@ -42,12 +42,8 @@ if dir_tgt=$(last) && number=$(number ${dir_tgt}) && next=$(next ${number})
 then
 
     echo ${dat_tgt}-${next}
-
-    exit 0
-
 else
-    cat<<EOF>&2
-$0 error, missing directory '${dat_tgt}-1'.
-EOF
-    exit 1
+
+    echo ${dat_tgt}-1
 fi
+exit 0

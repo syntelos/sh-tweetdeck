@@ -1,0 +1,3 @@
+# delay 300
+# resize 60%
+20190505-1/tweetdeck-20190505-175901.png
