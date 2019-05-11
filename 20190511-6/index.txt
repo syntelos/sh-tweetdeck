@@ -1,0 +1,11 @@
+# delay 300
+# resize 60%
+tweetdeck-20190511-113541.png
+tweetdeck-20190511-113605.png
+tweetdeck-20190511-113657.png
+tweetdeck-20190511-113702.png
+tweetdeck-20190511-113705.png
+tweetdeck-20190511-113707.png
+tweetdeck-20190511-113710.png
+tweetdeck-20190511-113714.png
+tweetdeck-20190511-113720.png
